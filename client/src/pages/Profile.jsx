@@ -157,7 +157,7 @@ export default function Profile() {
         prev.filter((listing) => listing._id !== listingId)
       );
     } catch (error) {
-      console.lofg(error.message);
+      console.log(error.message);
     }
   };
   return (
